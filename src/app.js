@@ -5,14 +5,14 @@ export default {
 	description: 'Generate a QRCode from a link',
 	overview: ({ link }) => [
 		{
-			label: 'Lien',
+			label: 'Link',
 			text: link,
 		},
 	],
 	options: [
 		{
 			field: 'link',
-			name: 'Lien',
+			name: 'Link',
 			type: 'string',
 			meta: {
 				width: 'full',

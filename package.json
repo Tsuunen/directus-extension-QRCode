@@ -1,8 +1,10 @@
 {
-	"name": "QRCode",
-	"description": "Please enter a description for your extension",
-	"icon": "extension",
+	"name": "directus-extension-QRCode",
+	"description": "Really simple integration of the QR Code Generator API to generate QR Codes simply in directus flows",
+	"icon": "qr_code_2",
 	"version": "1.0.0",
+	"license": "MIT",
+	"author": "Rémi LAFORGUE",
 	"keywords": [
 		"directus",
 		"directus-extension",

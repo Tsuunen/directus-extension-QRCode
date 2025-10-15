@@ -7,16 +7,13 @@ export default {
 			+ '&size=1000x1000&format=png';
 
 		try {
-			// Récupère l'image QR code
 			const response = await fetch(url);
 			if (!response.ok) {
 				throw new Error(`Response status: ${response.status}`);
 			}
 
-			// Convertit en buffer
 			const buffer = Buffer.from(await response.arrayBuffer());
 
-			// Prépare le service Files
 			const { FilesService } = services;
 			const schema = await getSchema();
 			const filesService = new FilesService({
@@ -24,7 +21,6 @@ export default {
 				accountability
 			});
 
-			// Upload le fichier avec un Readable stream
 			const stream = Readable.from(buffer);
 
 			const fileId = await filesService.uploadOne(stream, {
