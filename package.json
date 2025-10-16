@@ -1,5 +1,5 @@
 {
-	"name": "directus-extension-QRCode",
+	"name": "directus-extension-qrcode",
 	"description": "Really simple operation to generate QR Codes in directus flows",
 	"icon": "qr_code_2",
 	"version": "1.0.0",
