@@ -35,5 +35,8 @@
 	"devDependencies": {
 		"@directus/extensions-sdk": "16.0.2",
 		"vue": "^3.5.22"
+	},
+	"dependencies": {
+		"qr-image": "^3.2.0"
 	}
 }
