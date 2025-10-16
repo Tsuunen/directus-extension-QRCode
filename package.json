@@ -1,6 +1,6 @@
 {
 	"name": "directus-extension-QRCode",
-	"description": "Really simple integration of the QR Code Generator API to generate QR Codes simply in directus flows",
+	"description": "Really simple operation to generate QR Codes in directus flows",
 	"icon": "qr_code_2",
 	"version": "1.0.0",
 	"license": "MIT",
