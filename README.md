@@ -15,4 +15,8 @@ The generated QR Code is stored in the `directus_files` collection, with both it
 
 ---
 
+📦 **GitHub Repository:** [Tsuunen/directus-extension-QRCode](https://github.com/Tsuunen/directus-extension-QRCode)
+
+---
+
 MIT 2025
