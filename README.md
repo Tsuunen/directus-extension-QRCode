@@ -1,6 +1,6 @@
 # Directus Operation – QR Code
 
-Une opération Directus permettant de **générer un QR Code localement** à partir d’un lien, puis de **l’enregistrer automatiquement dans les fichiers Directus**.
+A Directus operation that **generates a QR Code locally** from a given link and **automatically saves it in the Directus Files collection**.
 
 ![QR Code Preview](./assets/directus-extension-QRCode.png)
 
@@ -8,10 +8,10 @@ Une opération Directus permettant de **générer un QR Code localement** à par
 
 ## 🧩 Description
 
-Cette opération peut être utilisée dans un **Flow Directus** pour créer un QR Code sans dépendre d’un service externe.  
-Elle utilise la librairie [`qr-image`](https://github.com/alexeyten/qr-image) pour générer le QR Code directement côté serveur.
+This operation can be used inside a **Directus Flow** to create a QR Code without relying on any external service.  
+It uses the [`qr-image`](https://github.com/alexeyten/qr-image) library to generate the QR Code directly on the server side.
 
-Le QR Code est enregistré dans la collection `directus_files`, avec un nom et un titre basés sur le lien fourni.
+The generated QR Code is stored in the `directus_files` collection, with both its filename and title derived from the provided link.
 
 ---
 
